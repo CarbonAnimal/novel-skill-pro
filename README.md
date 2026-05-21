@@ -108,9 +108,13 @@ chinese-novelist-pro/
 
 ## 🚀 安装与使用
 
-### 前置要求
+### 前置要求(任意一个AI Agent)
 
-- [WorkBuddy](https://www.codebuddy.cn) — AI 智能助手平台
+- Claude Code
+- Codex
+- Hermes-agent
+- WorkBuddy
+- ...
 
 ### 安装
 
@@ -218,7 +222,7 @@ Skill 会自动学习你的创作偏好，按 0-1 置信度加权：
 
 ---
 
-## 📄 License
+## 📄 License`
 
 MIT
 
@@ -233,7 +237,6 @@ MIT
 
 同时感谢：
 
-- [WorkBuddy](https://www.codebuddy.cn) — AI 智能助手平台
 - 起点中文网、番茄小说、晋江文学城、知乎盐言等优秀中文小说平台
 
 ---
