@@ -4,11 +4,10 @@
 >
 > **Chinese Novelist Pro** 由 [chinese-novelist](#致谢) 和 [oh-story](#致谢) 两个 Skill 融合而成，取其各自优势，形成覆盖扫榜、拆文、大纲、创作、校验、去AI味、封面生成的完整创作流水线。
 
-[![Platform](https://img.shields.io/badge/platform-WorkBuddy-blue)](https://www.codebuddy.cn)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success)]()
 
-**Chinese Novelist Pro** 是一个面向 WorkBuddy 平台的 AI Skill，覆盖小说创作全流程：从市场扫榜、对标拆文、交互式选题定位，到大纲规划、批量创作、自动校验、去 AI 味精修和封面生成——一站式搞定。
+**Chinese Novelist Pro** 是一个面向 AI Agent的 AI Skill，覆盖小说创作全流程：从市场扫榜、对标拆文、交互式选题定位，到大纲规划、批量创作、自动校验、去 AI 味精修和封面生成——一站式搞定。
 
 ---
 
@@ -118,15 +117,15 @@ chinese-novelist-pro/
 
 ### 安装
 
-将本目录放置到 WorkBuddy 的用户级 skills 目录：
+将本目录放置到 AI agent 的用户级 skills 目录：
 
 ```bash
-cp -r chinese-novelist-pro ~/.workbuddy/skills/
+cp -r chinese-novelist-pro ~/.{your ai agent folder}/skills/
 ```
 
 ### 使用
 
-在 WorkBuddy 中，通过以下关键词触发：
+在 Ai Agent 中，通过以下关键词触发：
 
 | 功能 | 触发词 |
 |------|--------|
@@ -213,7 +212,7 @@ Skill 会自动学习你的创作偏好，按 0-1 置信度加权：
 
 ## 🛠️ 技术实现
 
-- **平台**：WorkBuddy AI Platform
+- **平台**：AI Agent
 - **语言**：中文（简体）
 - **脚本**：Python 3（字数检查）
 - **格式**：Markdown（大纲/章节/追踪）
